@@ -44,6 +44,16 @@ namespace Backend.Services
                     PhoneNumber = model.PhoneNumber,
                     Role = model.Role != null ? model.Role : "User"
                 };
+                var existUser = _context.Users.FirstOrDefault(u => u.Email == newUser.Email);
+                if (existUser != null)
+                {
+                    return new ApiResponse
+                    {
+                        Success = false,
+                        Message = "This email already exists"
+                    };
+                }
+
                 newUser.Password = BC.HashPassword(newUser.Password);
                 _context.Users.Add(newUser);
                 _context.SaveChanges();
@@ -63,14 +73,5 @@ namespace Backend.Services
                 };
             }
         }
-
-        //    private bool verifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
-        // {
-        //     using (var hmac = new HMACSHA512(passwordSalt))
-        //     {
-        //         var hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
-        //         return hash.SequenceEqual(passwordHash);
-        //     }
-        // }
     }
 }

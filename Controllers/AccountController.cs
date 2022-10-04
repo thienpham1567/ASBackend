@@ -55,7 +55,7 @@ namespace Backend.Controllers
             if(apiResponse.Success){
                 return Ok(apiResponse);
             }
-            return StatusCode(StatusCodes.Status500InternalServerError,apiResponse);
+            return Ok(apiResponse);
         }
 
         [HttpPost("renewToken")]
