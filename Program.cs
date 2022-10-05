@@ -30,6 +30,7 @@ builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IEmailRepository, EmailRepository>();
 builder.Services.Configure<Jwt>(builder.Configuration.GetSection("Jwt"));
 var secretKey = builder.Configuration["Jwt:Key"]; // get secret key from AppSettings
 builder.Services.AddEndpointsApiExplorer();

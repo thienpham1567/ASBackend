@@ -61,3 +61,7 @@ C:\Backend\Backend\obj\Release\net6.0\refint\Backend.dll
 C:\Backend\Backend\obj\Release\net6.0\Backend.pdb
 C:\Backend\Backend\obj\Release\net6.0\Backend.genruntimeconfig.cache
 C:\Backend\Backend\obj\Release\net6.0\ref\Backend.dll
+C:\Backend\Backend\bin\Release\net6.0\MailKit.dll
+C:\Backend\Backend\bin\Release\net6.0\MimeKit.dll
+C:\Backend\Backend\bin\Release\net6.0\BouncyCastle.Crypto.dll
+C:\Backend\Backend\bin\Release\net6.0\web.config

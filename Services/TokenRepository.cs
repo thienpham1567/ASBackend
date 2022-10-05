@@ -28,9 +28,8 @@ namespace Backend.Services
             var credentials = new SigningCredentials(securityKeyBytes, SecurityAlgorithms.HmacSha512Signature); // hashing algorithm
             var claims = new[]
             {
-                new Claim("Username",user.Username),
+                new Claim("PhoneNumber",user.PhoneNumber),
                 new Claim(JwtRegisteredClaimNames.Email,user.Email),
-                new Claim(JwtRegisteredClaimNames.Sub,user.Email),
                 new Claim(ClaimTypes.Name,user.FullName),
                 new Claim(ClaimTypes.Role,user.Role),
                 new Claim("Id",user.Id.ToString()),

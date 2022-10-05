@@ -42,7 +42,7 @@ namespace Backend.Controllers
             {
                 Success = true,
                 Message = "Login successfully",
-                Data = new {user.Id,user.FullName,user.Email,user.PhoneNumber,user.Role, token},
+                Data = new { token },
             });
 
         }
@@ -52,7 +52,8 @@ namespace Backend.Controllers
         public IActionResult Register([FromBody] User model)
         {
             var apiResponse = _accountRepository.ValidateRegister(model);
-            if(apiResponse.Success){
+            if (apiResponse.Success)
+            {
                 return Ok(apiResponse);
             }
             return Ok(apiResponse);

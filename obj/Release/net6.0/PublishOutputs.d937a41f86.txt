@@ -1,10 +1,12 @@
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Backend.exe
+C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\web.config
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\appsettings.json
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Backend.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Backend.runtimeconfig.json
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Backend.pdb
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\BCrypt.Net-Core.dll
+C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\MailKit.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
@@ -20,6 +22,8 @@ C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protoco
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\MimeKit.dll
+C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\BouncyCastle.Crypto.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Backend\Backend\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
